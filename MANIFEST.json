@@ -2,9 +2,9 @@
   "version": "v7",
   "packaged_on": "2026-09-12",
   "manuscript_title": "Subspace embeddings with the rerandomized SRHT",
-  "source_integrity": "LaTeX source and figure copied byte-for-byte from the author-approved v7 manuscript. PDF rebuilt from this repository.",
+  "source_integrity": "v7 mathematical content preserved; abstract and acknowledgments updated to disclose completed Lean formalization. Frozen source and editorial correspondence evidence are retained under lean/audit.",
   "files": {
-    "manuscript.tex": "6e1299b1240695a47a9f783acedf370f7131a00225a6850e5323fafe93fec94e",
+    "manuscript.tex": "fdfae5f25863860cf55ee8439c1f2f6dbcd6b3768585b83889d242943fafebb5",
     "figures/p7_contraction.tex": "9df62c726d52766be5996124d3257b751bcbc5116ff770f80f452d6089bddabe",
     "manuscript.pdf": "d59526bce0e062093e254a7f3319363c2501061ed92caa258573a1540b025ef0"
   },
@@ -16,5 +16,7 @@
     "pages": 42,
     "command": "latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build manuscript.tex"
   },
-  "formalization_scope": "Earlier selected-width theorem only; current prescribed-width extension is not covered by the linked Lean companion."
+  "formalization_scope": "Current prescribed-width v7 theorem and supporting mathematics: 12 named results, 50 interfaces, 34 definitions, and 10 changed/additional interfaces. Independent manuscript correspondence plus formal proof compilation, axiom/dependency checks and fresh kernel replay.",
+  "lean_source_manifest": "lean/SOURCE_MANIFEST.json",
+  "lean_instructions": "lean/README.md"
 }

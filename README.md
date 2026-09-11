@@ -23,9 +23,26 @@ The range includes TR-01's $0<\varepsilon<1/2$. The explicit universal
 constant and completion of the proof are in Section 5.3 (pages 39–40).
 
 The manuscript includes the full proof and supporting references. Its
-acknowledgments describe AI assistance. The linked earlier Lean companion
-covers the earlier selected-width theorem, not the current prescribed-width
-extension.
+acknowledgments describe AI assistance. The [Lean 4 companion](lean/README.md)
+now covers the current prescribed-width theorem and its supporting mathematics.
+Manuscript-to-statement correspondence was reviewed in an independent agent
+context; the formal proofs passed Lean compilation, axiom checks and a fresh
+kernel replay. The upstream report remains a solution claim for maintainer review.
+
+## Run the Lean verification
+
+After [installing Lean](https://lean-lang.org/install/) and Python 3:
+
+```sh
+git clone https://github.com/yuningyang19/OpenProblemsInNLA_TR-01.git
+cd OpenProblemsInNLA_TR-01/lean
+lake exe cache get
+python3 verify.py
+```
+
+See [the full instructions](lean/README.md) for fresh kernel replay,
+semantic regression tests, the statement-to-proof map, and the verification
+scope. Lean 4.33.0 and the Mathlib revision are pinned in the project.
 
 ## Build
 

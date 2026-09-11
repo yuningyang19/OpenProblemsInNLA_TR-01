@@ -6,3 +6,8 @@ build/
 *.fdb_latexmk
 *.synctex.gz
 .DS_Store
+
+# Lean caches and local verification outputs
+.lake/
+lean/build/
+__pycache__/

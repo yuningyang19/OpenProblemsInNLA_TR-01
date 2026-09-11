@@ -50,7 +50,6 @@ centered projections. A two-projection decomposition converts this
 estimate into control of both spectral edges. Bernoulli sampling at arbitrary
 densities and a deterministic upper bound near full sampling yield the
 prescribed number of coordinates.
-The mathematical statements and proofs have also been formalized in Lean 4.
 % The universal constant is not optimized.
 \end{abstract}
 
@@ -3155,15 +3154,13 @@ used here.
 ChatGPT 6.0 Astra was used throughout this project for exploration of
 proof strategies, development and refinement of mathematical arguments,
 manuscript preparation, and Lean 4 formalization.
-The mathematical statements and proofs in the present version, including
-the prescribed-width theorem and its density extensions, have been
-formalized in Lean 4. Correspondence between the manuscript statements
-and the Lean declarations was reviewed in an independent agent context;
-the formal proofs passed Lean's kernel checks and a fresh kernel replay.
-The \href{https://github.com/yuningyang19/OpenProblemsInNLA_TR-01/tree/main/lean}{Lean 4 companion},
-which reuses the earlier selected-width formalization, includes the
-source code, correspondence records, and instructions for reproducing
-the checks.
+The earlier version, whose main theorem selected a suitable width,
+was matched to a complete Lean 4 formalization, with the formal proof
+package independently rebuilt and kernel-checked. That
+\href{https://github.com/yuningyang19/rerandSRHT_prob_5_6_simons_workshop/tree/5fb87c321a65baeaac09c79458a7356944647116}{Lean 4 companion}
+remains tied to the earlier statement. The prescribed-width theorem
+and its density extensions proved here have not been included in
+that formalization.
 
 \end{small}
 

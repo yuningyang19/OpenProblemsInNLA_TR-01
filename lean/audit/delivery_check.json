@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "named_results": 12,
+  "interfaces": 50,
+  "definitions": 34,
+  "changed_or_additional_interfaces": 10,
+  "mechanical_targets": 407,
+  "inherited_files_unchanged": 159,
+  "dependency_compiled_cache_reused_in_cold_build": true,
+  "fresh_kernel_replay": true,
+  "source_commit": "e71f836451e1485c06ff478be97ac83f0ac44687",
+  "manuscript_sha256": "6e1299b1240695a47a9f783acedf370f7131a00225a6850e5323fafe93fec94e",
+  "correspondence_sha256": "a4ee83ccc3d42aa986495ad7c31bb0052e8eb131b8b6ef5fa75567ffd38cb495",
+  "mechanical_audit_sha256": "d19b60810d160eaf101dbacaf3f6432948a7f384b09886ab606b214cf6e32c3c"
+}
