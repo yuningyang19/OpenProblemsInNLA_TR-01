@@ -1,0 +1,20 @@
+{
+  "version": "v7",
+  "packaged_on": "2026-09-12",
+  "manuscript_title": "Subspace embeddings with the rerandomized SRHT",
+  "source_integrity": "LaTeX source and figure copied byte-for-byte from the author-approved v7 manuscript. PDF rebuilt from this repository.",
+  "files": {
+    "manuscript.tex": "6e1299b1240695a47a9f783acedf370f7131a00225a6850e5323fafe93fec94e",
+    "figures/p7_contraction.tex": "9df62c726d52766be5996124d3257b751bcbc5116ff770f80f452d6089bddabe",
+    "manuscript.pdf": "d59526bce0e062093e254a7f3319363c2501061ed92caa258573a1540b025ef0"
+  },
+  "build": {
+    "compiler": "pdfTeX 1.40.26 (TeX Live 2024)",
+    "latexmk": "4.83",
+    "exit_code": 0,
+    "warnings": [],
+    "pages": 42,
+    "command": "latexmk -pdf -interaction=nonstopmode -halt-on-error -outdir=build manuscript.tex"
+  },
+  "formalization_scope": "Earlier selected-width theorem only; current prescribed-width extension is not covered by the linked Lean companion."
+}
