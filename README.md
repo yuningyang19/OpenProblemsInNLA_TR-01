@@ -22,6 +22,20 @@ The success probability is at least $0.99$ on each fixed target subspace.
 The range includes TR-01's $0<\varepsilon<1/2$. The explicit universal
 constant and completion of the proof are in Section 5.3 (pages 39–40).
 
+## Relation to Simons Problem 5.6
+
+Problem 5.6 in the Simons workshop collection asks whether the rerandomized
+SRHT is an oblivious subspace embedding with width $k=O(r/\varepsilon^2)$.
+Theorem 1 answers that question as well: it gives the prescribed width
+$k=\min\{n,\lceil Cr/\varepsilon^2\rceil\}$, rather than only the existence of
+a width of that order. TR-01 also makes the normalization, uniform sampling
+without replacement, and $0.99$ success probability explicit. The workshop
+assumption $n=\Omega(\log r)$ adds no restriction here, since
+$\log r\le r\le n$.
+
+Our separate [Simons Problem 5.6 repository](https://github.com/yuningyang19/rerandSRHT_prob_5_6_simons_workshop)
+contains the resolution of the workshop formulation and its Lean companion.
+
 The manuscript includes the full proof and supporting references. Its
 acknowledgments describe AI assistance. The [Lean 4 companion](lean/README.md)
 now covers the current prescribed-width theorem and its supporting mathematics.
